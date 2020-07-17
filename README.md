@@ -1,2 +1,2 @@
 # SIQEF-RA-2020
-Some machine learning projects we did using in the computational economics and finance class in PHBS.
+Some optomization, machine learning and Bayes statistics projects used in the computational economics and finance class in PHBS.
