@@ -1,0 +1,8 @@
+This video uses a Python module that does Dynamic Time Warping (DTW):
+https://www.youtube.com/watch?v=mtJyUUx3K6I
+
+Duplicating and then experimenting with his Jupyter notebook could be useful (**)
+
+Code for doing DTW is here:
+
+https://pypi.org/project/dtw-python/
