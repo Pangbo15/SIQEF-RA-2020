@@ -1,0 +1,7 @@
+python for game theory: case study
+
+The following site has an excellent class about two Python modules and other things that teach about game theory:
+
+https://vknight.org/gt/chapters/01/
+
+there are 8 chapters that I recommend that you read and digest. Please prepare copies of the Jupyter notebooks and expeiment with them.
