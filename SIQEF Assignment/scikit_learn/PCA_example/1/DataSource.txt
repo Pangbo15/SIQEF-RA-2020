@@ -1,0 +1,3 @@
+https://www.youtube.com/watch?v=xebPVQ1f7nM
+
+https://github.com/minsuk-heo/python_tutorial/blob/master/data_science/pca/PCA.ipynb
