@@ -1,0 +1,4 @@
+Source: https://github.com/scikit-learn/scikit-learn/blob/master/examples/feature_selection/plot_select_from_model_diabetes.py
+
+
+Description: Trying to find the best features of the dataset using Lasso and SelectFromModel.
