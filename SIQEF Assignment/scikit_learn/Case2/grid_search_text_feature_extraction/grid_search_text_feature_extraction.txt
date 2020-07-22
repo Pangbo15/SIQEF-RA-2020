@@ -1,0 +1,5 @@
+Source: https://github.com/scikit-learn/scikit-learn/blob/master/examples/model_selection/grid_search_text_feature_extraction.py
+
+
+
+Description: Trying to find the best features of the dataset using grid search.
