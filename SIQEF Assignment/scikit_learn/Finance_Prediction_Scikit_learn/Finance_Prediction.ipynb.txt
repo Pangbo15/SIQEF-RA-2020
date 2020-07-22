@@ -1,4 +1,0 @@
-Source: https://github.com/Alikoo/Finance_Prediction_Scikit_learn
-
-
-Description: Trying to predict the stock price in the future by linear regression and Lasso regression.
