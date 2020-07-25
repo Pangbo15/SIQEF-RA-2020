@@ -1,7 +1,7 @@
 # Time Series Clustering
 
 Project for [PV056 Machine learning course](https://is.muni.cz/course/fi/spring2016/PV056) on clustering of time series.
-
+https://github.com/effa/time-series-clustering
 ## Install
 
 Prerequisites: Python 3, virtualenv, virtualenvwrapper.
