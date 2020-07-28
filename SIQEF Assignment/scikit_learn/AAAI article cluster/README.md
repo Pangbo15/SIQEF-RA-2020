@@ -14,3 +14,6 @@ This project is a cluster analysis of data, which is based on the cluster analys
 
 
 First, we perform feature conversion, expand the data set according to the advanced keywords selected by the author, and then use k-means, Gaussian mixture model, Bayesian Gaussian mixture model to cluster the data set. Also, we visually analyze the clustering results using word cloud. In the end, the Bayesian Gaussian mixture model has the best clustering effect. When the data is clustered into 3 clusters, the Silouette coefficient is the largest.
+
+## Reference
+https://github.com/wzy6642/Machine-Learning-Case-Studies
