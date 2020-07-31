@@ -9,6 +9,7 @@ http://alfredgalichon.com/mec_optim_archive_2019-01/
 
 
 EMD(Wasserstein) distance self-study materials:
+https://blog.csdn.net/Utterly_Bonkers/article/details/88387081 (CN)
 https://zhuanlan.zhihu.com/p/84617531   (CN)
 https://zhuanlan.zhihu.com/p/145739750    (CN)
 https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247484880&idx=1&sn=4b2e976cc715c9fe2d022ff6923879a8&chksm=96e9da50a19e5346307b54f5ce172e355ccaba890aa157ce50fda68eeaccba6ea05425f6ad76&scene=21#wechat_redirect  (CN)
