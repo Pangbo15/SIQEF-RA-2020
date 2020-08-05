@@ -39,10 +39,16 @@ AFA Lecture: Machine Learning and Prediction in Economics and Finance: Sendhil M
 ### 1.6 Overall guidance for coding
 
 - We will use Python as the main code language in class. Here are some guidance and advice for code novice:
+
 https://tim.blog/2019/03/21/learn-to-code/
 https://learntocodewith.me/posts/code-for-free/
 https://www.quora.com/What-is-the-best-method-of-self-learning-programming
 https://lifehacker.com/top-10-ways-to-teach-yourself-to-code-1684250889
+
+For jupyter user, the following materials may be helpful:
+https://github.com/dunovank/jupyter-themes
+https://towardsdatascience.com/bringing-the-best-out-of-jupyter-notebooks-for-data-science-f0871519ca29
+https://github.com/jupyter/enhancement-proposals
 
 ### 1.7 Why you should learn machine learning:
 
