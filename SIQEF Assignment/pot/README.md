@@ -61,4 +61,9 @@ https://mathematical-coffees.github.io/slides/mc01-courty.pdf
 https://www.youtube.com/watch?v=mITml5ZpqM8
 
 
+paper
+Dolinsky, Y., Soner, H.M. Martingale optimal transport and robust hedging in continuous time. Probab. Theory Relat. Fields 160, 391–427 (2014). https://doi.org/10.1007/s00440-013-0531-y
 
+May, A.D., Shepherd, S.P. & Timms, P.M. Optimal transport strategies for European cities. Transportation 27, 285–315 (2000). https://doi.org/10.1023/A:1005274015858
+
+Galichon A. A survey of some recent applications of optimal transport methods to econometrics. Econometrics Journal. 2017;20(2):C1-C11. doi:10.1111/ectj.12083
