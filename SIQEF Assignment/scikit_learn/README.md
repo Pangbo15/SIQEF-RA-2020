@@ -1,5 +1,6 @@
 # Machine Learning Guidance 
-## PHBS SIQEF RA 2020
+## Author: Pang Bo, Yang Yue
+## Lecturer:PHBS SIQEF RA group 2020
 
 ## 1. BACKGROUND OF MACHINE LEARNING
 
@@ -230,12 +231,15 @@ I want to show thanks to my friend He Jinze for denoting his own entry-level pyt
 You will feel more comfortable if you read it before studying these projects.
 See `Python_foundation_CHN_By He Jinze` in this file.
 
-Excellent Resource in Chinese
+Resource in Chinese
 https://github.com/apachecn/AiLearning
 
 Examples From: 
 https://github.com/lazyprogrammer/machine_learning_examples
 https://www.dezyre.com/article/top-10-machine-learning-projects-for-beginners/397
+
+Society for data science worker by aribnb
+https://github.com/airbnb/knowledge-repo
 
 You will find some interesting ideas and projects carried by PHBS students in 
 https://github.com/PHBS/MLF/blob/master/Project.md , and some other useful materials provided by Prof. Choi.
@@ -277,4 +281,5 @@ Watch the video:
 https://www.youtube.com/watch?v=v5ijNXvlC5A&list=PLYx7XA2nY5GcDQblpQ_M1V3PQPoLWiDAC&index=40
 and more confenience material
 https://github.com/theJollySin/scipy_con_2019
+
 

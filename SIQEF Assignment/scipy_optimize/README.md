@@ -1,3 +1,7 @@
+# Scipy.optimize guidence
+## Author: Huang Kenghua
+
+## Reference
 This video is a simple introduction to using the scipy optimization package to solve
 a constrained non-linear optimization problem
 

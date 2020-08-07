@@ -7,6 +7,8 @@ https://pot.readthedocs.io/en/gromov/index.html
 ##　Reference　
 We refer the case from Cases from
 https://github.com/rflamary/OTML_DS3_2018
+https://github.com/QuantEcon/columbia_mini_course/blob/master/
+http://alfredgalichon.com/mec_optim_archive_2019-01/
 
 Here are some Jupyter notebooks which illustrate simple optimal transport problems. You can find other interesting examples in the material prepared by Alfred Galichon at
 
@@ -22,9 +24,12 @@ https://mp.weixin.qq.com/s?__biz=MzIwMTc4ODE0Mw==&mid=2247484880&idx=1&sn=4b2e97
 https://kexue.fm/archives/6280  
 https://zhuanlan.zhihu.com/p/93853664 
 https://zhuanlan.zhihu.com/p/74641429   (OP in Econometrics) 
+https://blog.csdn.net/Utterly_Bonkers/article/details/88860704?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159670332019724839251818%2522%252C%2522scm%2522%253A%252220140713.130102334.pc%255Fall.%2522%257D&request_id=159670332019724839251818&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v3~pc_rank_v3-13-88860704.pc_ecpm_v3_pc_rank_v3&utm_term=python+optimal+transport&spm=1018.2118.3001.4187
 
 
 English:
+https://optimaltransport.github.io/slides/
+https://ljk.imag.fr/membres/Emmanuel.Maitre/lib/exe/fetch.php?media=b07.stflour.pdf
 https://www.youtube.com/watch?v=ymWDGzpQdls
 https://victorzhaoblog.wordpress.com/2019/04/13/wasserstein-distance-vs-dynamic-time-warping/   Wasserstein vs DTW
 https://arxiv.org/abs/1904.08994    (Relative paper)
@@ -47,5 +52,11 @@ More information can be found in the [Computational Optimal Transport](https://a
 
 
 You can download the introductory slides to the practical session [here](https://remi.flamary.com/cours/otml/OTML_TPDS3_2018.pdf).
+
+optimal transport and machine learning
+https://lchizat.github.io/files/presentations/chizat2019IFCAM_OT.pdf
+https://mathematical-coffees.github.io/slides/mc01-courty.pdf
+https://www.youtube.com/watch?v=mITml5ZpqM8
+
 
 
