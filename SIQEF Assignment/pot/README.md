@@ -1,6 +1,6 @@
 # Python Optimal Transport - POT package
-## Collected by 
-Pang Bo
+
+### Collected by Pang Bo
 
 You can have more guidence in 
 https://pot.readthedocs.io/en/gromov/index.html
