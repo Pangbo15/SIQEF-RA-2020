@@ -1,5 +1,6 @@
-Pre to student soon！
+# 7 important quantecon lectures 
 
+We are gonna pre to you soon！
 
 https://python.quantecon.org/geom_series.html
 
