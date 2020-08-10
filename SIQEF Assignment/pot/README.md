@@ -2,6 +2,12 @@
 
 ### Collected by Pang Bo
 
+## Optimal transport introduction
+Introduced by Gaspard Monge in the 19th century, optimal transport (OT) reappeared in the work of Kantorovitch and recently found surprising new developments in a wide range of fields, including computational fluid mechanics, color transfer between multiple images or warping in the context of image processing, interpolation schemes or distance computation on meshes in computer graphics, and economics, via matching and equilibrium problems. Fundamentally, OT provides means of defining distances between probability measures defined in potentially high-dimensional metric spaces. These distances, which have received several names in the literature (Wasserstein, Monge-Kantorovich or Earth Mover distances), have strong and important properties:   
+- they can be evaluated when only empirical measures of the distributions are observed, and do not require estimating parametric or semi-parametric distributions as a preprocess;   
+- they can exploit the geometry of the underlying metric space, and provide meaningful distances even when the supports of the distributions do not overlap.
+
+
 You can have more guidence in 
 https://pot.readthedocs.io/en/gromov/index.html
 
@@ -13,10 +19,13 @@ https://github.com/rflamary/OTML_DS3_2018
 https://github.com/QuantEcon/columbia_mini_course/blob/master/
 http://alfredgalichon.com/mec_optim_archive_2019-01/
 
+
 Here are some Jupyter notebooks which illustrate simple optimal transport problems. You can find other interesting examples in the material prepared by Alfred Galichon at
 
 http://alfredgalichon.com/mec_optim_archive_2019-01/
 
+
+## Tutorial
 
 EMD(Wasserstein) distance self-study materials:
 Chinese:
@@ -31,6 +40,7 @@ https://blog.csdn.net/Utterly_Bonkers/article/details/88860704?ops_request_misc=
 
 
 English:
+https://wp-en.wikideck.com/Transportation_theory_(mathematics)
 https://optimaltransport.github.io/slides/
 https://ljk.imag.fr/membres/Emmanuel.Maitre/lib/exe/fetch.php?media=b07.stflour.pdf
 https://www.youtube.com/watch?v=ymWDGzpQdls
@@ -62,6 +72,7 @@ optimal transport and machine learning
 https://lchizat.github.io/files/presentations/chizat2019IFCAM_OT.pdf
 https://mathematical-coffees.github.io/slides/mc01-courty.pdf
 https://www.youtube.com/watch?v=mITml5ZpqM8
+http://people.irisa.fr/Nicolas.Courty/OATMIL/
 
 
 ## some paper
