@@ -14,9 +14,13 @@ As you read through these pages, compare and contrast the results of Bayesian me
 
 In addition to any Jupyter notebooks that you might create with these tools, we ask that you find and tell us about at least 3 research papers that use these Bayesian tools.
 
+## Tutorial and books
+
+https://disk.pku.edu.cn:443/link/441CD15661A041F7DD33FA4917DEDFA4
+available before: 2022-10-04 23:59, only for academic use only
 
 
-## Relative Paper
+## Relative paper
 
 ### Economics：
 1. Bergemann, Dirk, and Stephen Morris. "Information Design, Bayesian Persuasion, and Bayes Correlated Equilibrium." The American Economic Review 106, no. 5 (2016): 586-91. Accessed July 30, 2020. www.jstor.org/stable/43861087.
