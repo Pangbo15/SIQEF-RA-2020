@@ -6,7 +6,7 @@
 Introduced by Gaspard Monge in the 19th century, optimal transport (OT) reappeared in the work of Kantorovitch and recently found surprising new developments in a wide range of fields, including computational fluid mechanics, color transfer between multiple images or warping in the context of image processing, interpolation schemes or distance computation on meshes in computer graphics, and economics, via matching and equilibrium problems. Fundamentally, OT provides means of defining distances between probability measures defined in potentially high-dimensional metric spaces. These distances, which have received several names in the literature (Wasserstein, Monge-Kantorovich or Earth Mover distances), have strong and important properties:   
 - they can be evaluated when only empirical measures of the distributions are observed, and do not require estimating parametric or semi-parametric distributions as a preprocess;   
 - they can exploit the geometry of the underlying metric space, and provide meaningful distances even when the supports of the distributions do not overlap.
-
+![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/pot/POT%20Intro.png)
 
 You can have more guidence in 
 https://pot.readthedocs.io/en/gromov/index.html
