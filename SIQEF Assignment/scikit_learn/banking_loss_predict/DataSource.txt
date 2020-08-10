@@ -1,7 +1,0 @@
-https://community.ibm.com/accelerators/catalog/content/Banking-loss-events
-
-https://community.ibm.com/community/user/businessanalytics/home   
-is a good website for those who want to pursue the career in business analytics.
-
-The sample data file named "Banking_loss_events.xlsx" is intended to help beginners start authoring reports and dashboards. 
-The banking loss events data contains seven years of loss events including net loss, recovery amount, region, and risk sub-category.

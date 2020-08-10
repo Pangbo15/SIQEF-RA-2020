@@ -1,3 +1,0 @@
-Source: https://github.com/scikit-learn/scikit-learn/blob/master/examples/cluster/plot_cluster_iris.py
-
-Description: Implementing K-means algorithm on Iris data. It also shows the effect of bad initialization.
