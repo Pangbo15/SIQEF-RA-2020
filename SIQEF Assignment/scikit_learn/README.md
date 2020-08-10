@@ -28,6 +28,7 @@ Many of the machine learning research flourished in finance, because
 - Some part of finance is focusing on prediction. 
 - You have out of sample thing you are testing on: in finance, it’s the next year data.
 - Compare to coefficient estimate quality, prediction accuracy is more observable.
+
  (From https://www.youtube.com/watch?v=xl3yQBhI6vY
 AFA Lecture: Machine Learning and Prediction in Economics and Finance: Sendhil Mullainathan, Harvard University)
 
@@ -53,8 +54,8 @@ https://github.com/jupyter/enhancement-proposals
 
 ### 1.7 Why you should learn machine learning:
 
-In general, this is what economics machine learning is about. To help to enhance products and services, improving productivity and predicting the future by giving trustworthy forecasts about economics, market, society, politics or technology. But for a change, these predictions actually CAN be trustworthy.
-Current predictions are mostly based on what someone thinks, whether it’s a one-person or a company. It’s not a reliable source. Forecasts of the future will be based on big data. Machine learning algorithms will analyze the tenths of thousands of gigabytes of data in order to find the most probable outcome or trend. It will no longer be based on “reading tea leaves” so we might expect that its accuracy will be considerably higher. And as we mentioned earlier – a synergy of machine learning in economics and econometrics can lead to much more accurate models, combining the ability to analyze huge amounts of data and traditional modeling.
+In general, this is what economics machine learning is about: To help to enhance products and services, improving productivity and predicting the future by giving trustworthy forecasts about economics, market, society, politics or technology.These predictions actually CAN be trustworthy.
+Current predictions are mostly based on what someone thinks, whether it’s a one-person or a company. It’s not a reliable source. Forecasts of the future will be based on big data —— Machine learning algorithms will analyze the tenths of thousands of gigabytes of data in order to find the most probable outcome or trend. It will no longer be based on “reading tea leaves” so we might expect that its accuracy will be considerably higher. And as we mentioned earlier – a synergy of machine learning in economics and econometrics can lead to much more accurate models, combining the ability to analyze huge amounts of data and traditional modeling.
 This class will provide you with some tools about machine learning. As machine learning and deep learning is the core algorithms in the coming AI-century, it is always better to know some about it. If you are trying to find a job or some intention, you may get some work-related techniques in this course. Even for someone who has decided his or her own job hunting intension, the course will provide you some chances to make kinds of innovation and increment in your daily routine.
 See some views from:
 https://idei.fr/sites/default/files/IDEI/documents/tnit/newsletter/issue_19.pdf
@@ -110,7 +111,7 @@ Mainly used as the first step before applying those above methods when you have 
 Usually in a machine learning program, we conduct a series of ML method and get many models, which can be used for further prediction. To improve our accuracy of prediction, we need to build a method and a standard for testing and evaluating different types of model. Usually all the multiple ML method projects or papers will provide this step in the end.
 
 ### 3.2 Preprocessing
-. A method to deal with unstructured data. Usually exist in every research. But it actually cost the majority of time in your project. You need to look deeper into the data and try to combine some of your own idea to preprocess the result. 
+A method to deal with unstructured data. Usually exist in every research. But it actually cost the majority of time in your project. You need to look deeper into the data and try to combine some of your own idea to preprocess the result. 
 
 ## 4. REFEREE
 
@@ -212,7 +213,7 @@ Chernozhukov, V., Chetverikov, D., Demirer, M., Duflo, E., Hansen, C., Newey, W.
 https://academic.oup.com/ectj/article/21/1/C1/5056401
 
 ### Type 5: Machine Learning regression for microeconomics
-- It is obvious that machine learning provides some useful tools in Macro level, but not too much. Since Macro data is hard to investigate, hence not long enough to support this kind of data method. Traditional econometrics are still the main tools in dealing with data. 
+- It is obvious that machine learning provides some useful tools in Macro level, but not too much. Since Macro data is hard to investigate, hence not long enough to support this kind of data method, as well as the growing macro-data unstationarities by some policy changes. Traditional econometrics are still the main tools in dealing with data. 
 - But there is still a lot of potential in this topic. With the new form of data (Twitter, Google search result, etc) or some simulation/bootstrap techniques, you can still land some machine learning methods and push the frontier, which requires the command of knowledge and research experience in macroeconomics area.
 
 Brathwaite, T., Vij, A., & Walker, J. L. (2017). Machine learning meets microeconomics: The case of decision trees and discrete choice. arXiv preprint arXiv:1711.04826.

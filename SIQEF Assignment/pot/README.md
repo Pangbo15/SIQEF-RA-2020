@@ -8,6 +8,7 @@ https://pot.readthedocs.io/en/gromov/index.html
 
 ##　Reference　
 We refer the case from Cases from
+https://pythonot.github.io/auto_examples/index.html
 https://github.com/rflamary/OTML_DS3_2018
 https://github.com/QuantEcon/columbia_mini_course/blob/master/
 http://alfredgalichon.com/mec_optim_archive_2019-01/
@@ -38,6 +39,7 @@ https://arxiv.org/abs/1904.08994    (Relative paper)
 https://vincentherrmann.github.io/blog/wasserstein/
 https://en.wikipedia.org/wiki/Frobenius_inner_product  (Useful detailed knowledge about inner product)
 https://github.com/zhangqianhui/AdversarialNetsPapers  (GAN Paper)
+https://arxiv.org/abs/1701.07875    (GAN Paper)
 
 
 Introduction to optimal transport video
@@ -47,7 +49,8 @@ Courses and practical sessions for the Optimal Transport and Machine learning co
 The course has been prepared by [Marco Cuturi](http://marcocuturi.net/),
  [Rémi Flamary](http://remi.flamary.com/) and [Nicolas Courty](http://people.irisa.fr/Nicolas.Courty/).
 
-The slides of the Cours by Marco Cuturi can be downloadable [here](https://www.dropbox.com/s/3kuqnhmf2q0dzjq/mlss18_argentina.pdf?dl=0).
+The slides of the Cours by Marco Cuturi can be downloadable [here](https://www.dropbox.com/s/3kuqnhmf2q0dzjq/mlss18_argentina.pdf?dl=0)   or
+https://drive.google.com/file/d/1HCAI3E443PfF_sjoZgl8m24JF5nPJc9X/view
 
 
 More information can be found in the [Computational Optimal Transport](https://arxiv.org/pdf/1803.00567.pdf) book.
@@ -61,7 +64,7 @@ https://mathematical-coffees.github.io/slides/mc01-courty.pdf
 https://www.youtube.com/watch?v=mITml5ZpqM8
 
 
-paper
+## some paper
 Dolinsky, Y., Soner, H.M. Martingale optimal transport and robust hedging in continuous time. Probab. Theory Relat. Fields 160, 391–427 (2014). https://doi.org/10.1007/s00440-013-0531-y
 
 May, A.D., Shepherd, S.P. & Timms, P.M. Optimal transport strategies for European cities. Transportation 27, 285–315 (2000). https://doi.org/10.1023/A:1005274015858
