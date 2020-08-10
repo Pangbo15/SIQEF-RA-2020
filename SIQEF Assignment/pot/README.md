@@ -2,20 +2,30 @@
 
 ### Collected by Pang Bo
 
+## Optimal transport introduction
+Introduced by Gaspard Monge in the 19th century, optimal transport (OT) reappeared in the work of Kantorovitch and recently found surprising new developments in a wide range of fields, including computational fluid mechanics, color transfer between multiple images or warping in the context of image processing, interpolation schemes or distance computation on meshes in computer graphics, and economics, via matching and equilibrium problems. Fundamentally, OT provides means of defining distances between probability measures defined in potentially high-dimensional metric spaces. These distances, which have received several names in the literature (Wasserstein, Monge-Kantorovich or Earth Mover distances), have strong and important properties:   
+- they can be evaluated when only empirical measures of the distributions are observed, and do not require estimating parametric or semi-parametric distributions as a preprocess;   
+- they can exploit the geometry of the underlying metric space, and provide meaningful distances even when the supports of the distributions do not overlap.
+
+
 You can have more guidence in 
 https://pot.readthedocs.io/en/gromov/index.html
 
 
 ##　Reference　
 We refer the case from Cases from
+https://pythonot.github.io/auto_examples/index.html
 https://github.com/rflamary/OTML_DS3_2018
 https://github.com/QuantEcon/columbia_mini_course/blob/master/
 http://alfredgalichon.com/mec_optim_archive_2019-01/
+
 
 Here are some Jupyter notebooks which illustrate simple optimal transport problems. You can find other interesting examples in the material prepared by Alfred Galichon at
 
 http://alfredgalichon.com/mec_optim_archive_2019-01/
 
+
+## Tutorial
 
 EMD(Wasserstein) distance self-study materials:
 Chinese:
@@ -30,6 +40,7 @@ https://blog.csdn.net/Utterly_Bonkers/article/details/88860704?ops_request_misc=
 
 
 English:
+https://wp-en.wikideck.com/Transportation_theory_(mathematics)
 https://optimaltransport.github.io/slides/
 https://ljk.imag.fr/membres/Emmanuel.Maitre/lib/exe/fetch.php?media=b07.stflour.pdf
 https://www.youtube.com/watch?v=ymWDGzpQdls
@@ -38,6 +49,7 @@ https://arxiv.org/abs/1904.08994    (Relative paper)
 https://vincentherrmann.github.io/blog/wasserstein/
 https://en.wikipedia.org/wiki/Frobenius_inner_product  (Useful detailed knowledge about inner product)
 https://github.com/zhangqianhui/AdversarialNetsPapers  (GAN Paper)
+https://arxiv.org/abs/1701.07875    (GAN Paper)
 
 
 Introduction to optimal transport video
@@ -47,7 +59,8 @@ Courses and practical sessions for the Optimal Transport and Machine learning co
 The course has been prepared by [Marco Cuturi](http://marcocuturi.net/),
  [Rémi Flamary](http://remi.flamary.com/) and [Nicolas Courty](http://people.irisa.fr/Nicolas.Courty/).
 
-The slides of the Cours by Marco Cuturi can be downloadable [here](https://www.dropbox.com/s/3kuqnhmf2q0dzjq/mlss18_argentina.pdf?dl=0).
+The slides of the Cours by Marco Cuturi can be downloadable [here](https://www.dropbox.com/s/3kuqnhmf2q0dzjq/mlss18_argentina.pdf?dl=0)   or
+https://drive.google.com/file/d/1HCAI3E443PfF_sjoZgl8m24JF5nPJc9X/view
 
 
 More information can be found in the [Computational Optimal Transport](https://arxiv.org/pdf/1803.00567.pdf) book.
@@ -59,9 +72,10 @@ optimal transport and machine learning
 https://lchizat.github.io/files/presentations/chizat2019IFCAM_OT.pdf
 https://mathematical-coffees.github.io/slides/mc01-courty.pdf
 https://www.youtube.com/watch?v=mITml5ZpqM8
+http://people.irisa.fr/Nicolas.Courty/OATMIL/
 
 
-paper
+## some paper
 Dolinsky, Y., Soner, H.M. Martingale optimal transport and robust hedging in continuous time. Probab. Theory Relat. Fields 160, 391–427 (2014). https://doi.org/10.1007/s00440-013-0531-y
 
 May, A.D., Shepherd, S.P. & Timms, P.M. Optimal transport strategies for European cities. Transportation 27, 285–315 (2000). https://doi.org/10.1023/A:1005274015858
