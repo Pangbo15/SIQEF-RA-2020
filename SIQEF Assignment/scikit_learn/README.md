@@ -6,12 +6,12 @@
 
 ### 1.1 Process
   
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_process.bmp)
 (From https://elearningindustry.com/machine-learning-process-and-scenarios)
 
 ### 1.2 Algorithms for model
 
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png) 
+![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_algorithms.bmp) 
 (From https://github.com/Bladefidz/machine-learning)
 
 ### 1.3 Common Characteristics
@@ -36,7 +36,7 @@ AFA Lecture: Machine Learning and Prediction in Economics and Finance: Sendhil M
 
 ### 1.5 Machine Learning vs Econometrics
 
-![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
+![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_econometrics.bmp)
  
 (From https://www.youtube.com/watch?v=eD758rKwQmA&t=1661s)
 
