@@ -2,14 +2,19 @@
 
 ### Author:Li Jiahui
 
-## Optimal transport introduction
+## Pym3 Bayes introduction
 
-Go to this website
+You can go to this website
 
 https://docs.pymc.io/
-and study the tutorials and examples. We also recommend studying some of these notes on Bayesian methods
+https://pydoc.net/pymc3/3.3rc1/
+and study the tutorials and examples. 
+
+We also recommend studying some of these notes on Bayesian methods
 
 https://jrnold.github.io/bayesian_notes/bayesian-inference.html
+
+
 As you read through these pages, compare and contrast the results of Bayesian methods and the methods that you explored from scikit-learn. How do they differ? How are they similar? When might you want to use a Bayesian method rather than a machine learning method? We don't expect written answers, but thinking about these questions will prepare you to answer challenging and thoughtful questions that the students might ask (and that you yourself will confront in your own empirical research).
 
 In addition to any Jupyter notebooks that you might create with these tools, we ask that you find and tell us about at least 3 research papers that use these Bayesian tools.
@@ -40,3 +45,7 @@ https://onlinelibrary.wiley.com/doi/epdf/10.1111/j.1468-0262.2004.00512.x
 ### Management:
 1. Azoury, Katy S., and Bruce L. Miller. "A Comparison of the Optimal Ordering Levels of Bayesian and Non-Bayesian Inventory Models." Management Science 30, no. 8 (1984): 993-1003. Accessed July 30, 2020. www.jstor.org/stable/2631590.
 2. Dorazio, Robert M., and Fred A. Johnson. "Bayesian Inference and Decision Theory -- A Framework for Decision Making in Natural Resource Management." Ecological Applications 13, no. 2 (2003): 556-63. Accessed July 30, 2020. www.jstor.org/stable/3099918.
+
+
+## Reference
+Salvatier J., Wiecki T.V., Fonnesbeck C. (2016) Probabilistic programming in Python using PyMC3. PeerJ Computer Science 2:e55 DOI: 10.7717/peerj-cs.55.
