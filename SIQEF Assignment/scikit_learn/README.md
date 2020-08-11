@@ -6,11 +6,12 @@
 
 ### 1.1 Process
   
- 
+![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
 (From https://elearningindustry.com/machine-learning-process-and-scenarios)
 
 ### 1.2 Algorithms for model
- 
+
+![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png) 
 (From https://github.com/Bladefidz/machine-learning)
 
 ### 1.3 Common Characteristics
@@ -29,12 +30,13 @@ Many of the machine learning research flourished in finance, because
 - You have out of sample thing you are testing on: in finance, it’s the next year data.
 - Compare to coefficient estimate quality, prediction accuracy is more observable.
 
- (From https://www.youtube.com/watch?v=xl3yQBhI6vY
-AFA Lecture: Machine Learning and Prediction in Economics and Finance: Sendhil Mullainathan, Harvard University)
+ * From https://www.youtube.com/watch?v=xl3yQBhI6vY
+AFA Lecture: Machine Learning and Prediction in Economics and Finance: Sendhil Mullainathan, Harvard University
 
 
 ### 1.5 Machine Learning vs Econometrics
 
+![image](https://github.com/lexsaints/powershell/blob/master/IMG/ps2.png)
  
 (From https://www.youtube.com/watch?v=eD758rKwQmA&t=1661s)
 
