@@ -6,7 +6,8 @@
 
 ### 1.1 Process
   
-![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_process.bmp)
+![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_process.bmp)  
+
 (From https://elearningindustry.com/machine-learning-process-and-scenarios)
 
 ### 1.2 Algorithms for model
@@ -115,7 +116,7 @@ Usually in a machine learning program, we conduct a series of ML method and get 
 ### 3.2 Preprocessing
 A method to deal with unstructured data. Usually exist in every research. But it actually cost the majority of time in your project. You need to look deeper into the data and try to combine some of your own idea to preprocess the result. 
 
-## 4. REFEREE
+## 4. REFERENCE
 
 ## Paper
 ### Type 0: Overall guidance
@@ -261,6 +262,9 @@ https://deeplearningcourses.com/c/deep-learning-tensorflow-2
 Cutting-Edge AI: Deep Learning in Python 
 https://deeplearningcourses.com/c
 
+Fast-ai package and course
+https://course.fast.ai/update_colab.html
+
 Data Quest URL :Sales_Win_Loss data set from IBM’s Watson repository
 https://www.dataquest.io/blog/sci-kit-learn-tutorial/
 
@@ -284,5 +288,7 @@ Watch the video:
 https://www.youtube.com/watch?v=v5ijNXvlC5A&list=PLYx7XA2nY5GcDQblpQ_M1V3PQPoLWiDAC&index=40
 and more confenience material
 https://github.com/theJollySin/scipy_con_2019
+
+
 
 
