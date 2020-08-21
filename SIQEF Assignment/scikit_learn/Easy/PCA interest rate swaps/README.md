@@ -3,8 +3,6 @@
 ## Introduction
 This project uses Machine learning (PCA) to analyze IR swaps.
 
-
-
 ## Data description
 You should log in https://www.quandl.com/ and register for free use to run this code. Remember to change the account and passward.
 

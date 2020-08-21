@@ -15,6 +15,9 @@
 ![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_algorithms.bmp) 
 (From https://github.com/Bladefidz/machine-learning)
 
+![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/algorithm_cheatsheet.jpeg) 
+(From http://thinkbigdata.in/best-known-machine-learning-algorithms-infographic/)
+
 ### 1.3 Common Characteristics
 - loss function central: reveal preference
 - Prediction is usually fragile while theoretical model is robust
@@ -231,9 +234,12 @@ https://arxiv.org/pdf/1901.08943.pdf
 
 
 # Relative Course and Project Links: 
-I want to show thanks to my friend He Jinze for denoting his own entry-level python tutorial(in Chinese).
+I want to thank my friend He Jinze for denoting his own entry-level python tutorial(in Chinese).
 You will feel more comfortable if you read it before studying these projects.
-See `Python_foundation_CHN_By He Jinze` in this file.
+See `Python_foundation_CHN` in this file.
+
+Overall framework of machine learning algorithms (in Chinese)
+https://cloud.tencent.com/developer/article/1029070
 
 Resource in Chinese
 https://github.com/apachecn/AiLearning
@@ -289,6 +295,9 @@ https://www.youtube.com/watch?v=v5ijNXvlC5A&list=PLYx7XA2nY5GcDQblpQ_M1V3PQPoLWi
 and more confenience material
 https://github.com/theJollySin/scipy_con_2019
 
+note in Chinese
+https://www.jiqizhixin.com/columns/Thushujupai   
 
-
+Easy class of ML
+https://www.youtube.com/c/AndreasMueller/
 

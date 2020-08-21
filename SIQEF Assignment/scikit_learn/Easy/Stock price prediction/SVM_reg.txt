@@ -1,7 +1,0 @@
-
-
-Description: Predicting the stock price with SVM regression, and comparing three different kernel functions(linear, poly, and RBF).
-
-Data Description: Basic stock information of APPLE, including open price, close price, high price, low price, volume.
-
-Source: https://github.com/Markado/svm_regression_finance
