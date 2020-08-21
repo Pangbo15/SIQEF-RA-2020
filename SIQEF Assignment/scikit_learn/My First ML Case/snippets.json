@@ -1,0 +1,359 @@
+{
+    "snippets" : [
+        {
+            "name" : "example",
+            "code" : [
+                "# This is an example snippet!",
+                "# To create your own, add a new snippet block to the",
+                "# snippets.json file in your jupyter nbextensions directory:",
+                "# /nbextensions/snippets/snippets.json",
+                "import this"
+            ]
+        },
+
+        {
+            "name" : "Normal import",
+            "code" : [
+                "import pandas as pd",
+                "import numpy as np",
+                "import pandas_profiling",
+                "import seaborn as sns",
+                "import matplotlib.pyplot as plt",
+                "pd.set_option('max_colwidth',800)"
+            ]
+        },
+
+        {
+            "name" : "qgrid visualization",
+            "code" : [
+                "import import qgrid",
+                "df_qgrid = qgrid.show_grid(df, show_toolbar=True)",
+                "df_qgrid",
+                "profile = df.profile_report(title='Pandas Profiling Report')",  
+                "profile.to_file('XXX profiling.html')",
+                "# Normal Visualization",
+                "df.info()",
+                "df.describe()",
+                "df.hist()",
+                "#df[['Net Loss','Recovery Amount']]",
+                "#df[:100]",
+                "#df[['Occurrence Start Date','Year']][:100]"
+            ]
+        },
+
+        {
+            "name" : "Data Preprocessing",
+            "code" : [
+                "df = df.drop_duplicates()",
+                "# After you drop the data, remember to re-index to fill the blank.",
+                "index = list(np.arange(len(df)))",
+                "df['index'] = index",
+                "df = df.sort_values(by=['index'], ascending=(True))",
+                "df.set_index('index',inplace=True)",
+
+                "df = df.fillna()",
+                
+                "df = df.drop(columns=['Estimated Gross Loss','Recovery Amount'])",
+
+                "df['timediff'] = (df['Occurrence Start Date'] - df['Discovery Date'])",
+                "df['timediff'] = df['timediff'].astype('timedelta64[D]')",
+                "df['Discovery Date'] = df['Discovery Date'].values.astype('float')",
+
+                "qgrid.show_grid(df[['Name']], show_toolbar=True)",
+                
+                "df_ml = pd.get_dummies(df, drop_first=False)",
+                "print(df_ml.columns)",
+                "y = df_ml[['Recovery Amount (percent)']]",
+                "X = df_ml[['Discovery Date','Year']]"
+            ]
+        },
+
+        {
+            "name" : "sklearn split and standardize",
+            "code" : [
+                "from sklearn.model_selection import train_test_split",
+                "from sklearn.preprocessing import StandardScaler",
+                "#from sklearn.preprocessing import MinMaxScaler",
+
+                "sc_X = StandardScaler()"
+                "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)",
+                "X_test_std = sc_X.fit_transform(X_test)",
+                "X_train_std = sc_X.fit_transform(X_train)",
+                "pd.DataFrame(X_test_std, columns=X.columns)",
+                "pd.DataFrame(X_train_std, columns=X.columns)"
+            ]
+        },
+
+        {
+            "name" : "Classification",
+            "code" : [
+                "from sklearn.neural_network import MLPClassifier",
+                "from sklearn.neighbors import KNeighborsClassifier",
+                "from sklearn.svm import SVC",
+                "from sklearn.gaussian_process import GaussianProcessClassifier",
+                "from sklearn.gaussian_process.kernels import RBF",
+                "from sklearn.tree import DecisionTreeClassifier",
+                "from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier",
+                "from sklearn.naive_bayes import GaussianNB",
+                "from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis",
+                "from sklearn.metrics import confusion_matrix",
+                "from sklearn.metrics import precision_score, recall_score, f1_score",
+                "from sklearn.metrics import roc_curve, auc",
+                "from sklearn.metrics import plot_roc_curve",
+                "from scipy import interp",
+                "from sklearn.model_selection import StratifiedKFold",
+
+                "cv = list(StratifiedKFold(n_splits=3).split(X_train, y_train))",
+                "names = ['Nearest Neighbors', 'Linear SVM', 'RBF SVM', 'Gaussian Process',",
+                "        'Decision Tree', 'Random Forest', 'Neural Net', 'AdaBoost',"
+                "        'Naive Bayes', 'QDA']",
+
+                "classifiers = [",
+                    "KNeighborsClassifier(5),",
+                    "SVC(kernel='linear', C=0.025),",
+                    "SVC(kernel='rbf',gamma=2, C=1),",
+                    "GaussianProcessClassifier(1.0 * RBF(1.0)),",
+                    "DecisionTreeClassifier(max_depth=8),",
+                    "RandomForestClassifier(max_depth=8, n_estimators=10, max_features=1),",
+                    "MLPClassifier(alpha=1, max_iter=1000),",
+                    "AdaBoostClassifier(),",
+                    "GaussianNB(),",
+                    "QuadraticDiscriminantAnalysis()]",
+
+                "for name, clf in zip(names, classifiers):",
+                    "clf.fit(X_train, y_train)",
+                    "score = clf.score(X_test, y_test)",
+                    "print(name,'_score:',score)",
+                    "y_pred = clf.predict(X_test)",
+                    "confmat = confusion_matrix(y_true=y_test, y_pred=y_pred)",
+                    "print(confmat)",
+
+                    "fig, ax = plt.subplots(figsize=(2.5, 2.5))",
+                    "ax.matshow(confmat, cmap=plt.cm.Blues, alpha=0.3)",
+                    
+                    "# plot confusion matrix",
+                    "for i in range(confmat.shape[0]):",
+                    "    for j in range(confmat.shape[1]):",
+                    "        ax.text(x=j, y=i, s=confmat[i, j], va='center', ha='center')",
+
+                    "plt.xlabel('Predicted label')",
+                    "plt.ylabel('True label')",
+
+                    "plt.tight_layout()",
+                    "#plt.savefig('images/xxmethod.png', dpi=300)",
+                    "plt.show()",
+
+                    "print('Precision: %.3f' % precision_score(y_true=y_test, y_pred=y_pred, pos_label=0))",
+                    "print('Recall: %.3f' % recall_score(y_true=y_test, y_pred=y_pred, pos_label=0))",
+                    "print('F1: %.3f' % f1_score(y_true=y_test, y_pred=y_pred, pos_label=0))",
+                    
+                    "ax1 = plt.gca()",
+                    "clf_disp = plot_roc_curve(clf, X_test, y_test, ax=ax1, alpha=0.8)"
+            ]
+        }
+
+        {
+            "name" : "Dimension Reduction Manifold Algorith & Feature Agglomeration",
+            "code" : [
+                "from sklearn import manifold",
+                "from collections import OrderedDict",
+                "from functools import partial",
+
+                "n_neighbors = 10     # Trade off between running time and accuracy ",
+                "n_components = 2",         
+
+                "LLE = partial(manifold.LocallyLinearEmbedding,",
+                "            n_neighbors, n_components, eigen_solver='dense')",
+
+                "methods = OrderedDict()",
+                "methods['LLE'] = LLE(method='standard')",
+                "methods['LTSA'] = LLE(method='ltsa')",
+                "methods['Hessian LLE'] = LLE(method='hessian')",
+                "methods['Isomap'] = manifold.Isomap(n_neighbors, n_components)   # You should always refresh the code when you update sklearn version.",
+                "methods['MDS'] = manifold.MDS(n_components, max_iter=100, n_init=1)",
+                "methods['SE'] = manifold.SpectralEmbedding(n_components=n_components,",
+                "                                        n_neighbors=n_neighbors)",
+                "methods['t-SNE'] = manifold.TSNE(n_components=n_components, init='pca',",
+                "                                random_state=0)",
+                "methods['Modified LLE'] = LLE(method='modified') # It always provides warnings here... Maybe I did miss up something.",
+
+                "for i, (label, method) in enumerate(methods.items()):",
+                "    X_DR = method.fit_transform(X_all)",
+                "    # Then you can add what you'd like to do in the following.",
+
+                "# Feature Agglomeration",
+                "from sklearn import cluster",
+                "n_components = 4",
+
+                "agglo = cluster.FeatureAgglomeration(n_clusters=n_components)",
+                "agglo.fit(X_all)",
+                "X_reduced = agglo.transform(X_all)",
+                "print(X_all.shape)",
+                "X_reduced.shape"
+            ]
+        },
+
+        {
+            "name" : "Dimension Reduction Random Projection",
+            "code" : [
+                "from sklearn import random_projection",
+                "transformer1 = random_projection.GaussianRandomProjection(n_components=8,eps=0.1)",
+                "X_new1 = transformer1.fit_transform(X_all)",
+                "print(X_new1.shape)",
+                "# If you have large amount of X features compared to samples, you may try to use `eps` to control component_number in output.",
+                
+                "transformer2 = random_projection.SparseRandomProjection(n_components=8)",
+                "X_new2 = transformer2.fit_transform(X_all)",
+                "print(X_new2.shape)"
+            ]
+        },
+
+        {
+            "name" : "Clustering - sklearn",
+            "code" : [
+                "from sklearn import cluster, mixture",
+                "from sklearn.neighbors import kneighbors_graph",
+                
+                "# ============",
+                "# set hyperparameters",
+                "# ============",
+                "default_base = {'quantile': .3,",
+                "                'eps': .3,",
+                "                'damping': .9,",
+                "                'preference': -200,",
+                "                'n_neighbors': 10,",
+                "                'n_clusters': 3,",
+                "                'min_samples': 20,",
+                "                'xi': 0.05,",
+                "                'min_cluster_size': 0.1}",
+                "params = default_base.copy()",
+                
+                "# estimate bandwidth for mean shift",
+                "bandwidth = cluster.estimate_bandwidth(X, quantile=params['quantile'])",
+                
+                "# connectivity matrix for structured Ward",
+                "connectivity = kneighbors_graph(",
+                "    X, n_neighbors=params['n_neighbors'], include_self=False)",
+                "# make connectivity symmetric",
+                "connectivity = 0.5 * (connectivity + connectivity.T)",
+                
+                "# ============",
+                "# Create cluster objects",
+                "# ============",
+                "ms = cluster.MeanShift(bandwidth=bandwidth, bin_seeding=True)",
+                "two_means = cluster.MiniBatchKMeans(n_clusters=params['n_clusters'])",
+                "ward = cluster.AgglomerativeClustering(",
+                "    n_clusters=params['n_clusters'], linkage='ward',",
+                "    connectivity=connectivity)",
+                "spectral = cluster.SpectralClustering(",
+                "    n_clusters=params['n_clusters'], eigen_solver='arpack',",
+                "    affinity='nearest_neighbors')",
+                "dbscan = cluster.DBSCAN(eps=params['eps'])",
+                "optics = cluster.OPTICS(min_samples=params['min_samples'],",
+                "                        xi=params['xi'],",
+                "                       min_cluster_size=params['min_cluster_size'])",
+                "affinity_propagation = cluster.AffinityPropagation(",
+                "    damping=params['damping'], preference=params['preference'])",
+                "average_linkage = cluster.AgglomerativeClustering(",
+                "    linkage='average', affinity='cityblock',",
+                "    n_clusters=params['n_clusters'], connectivity=connectivity)",
+                "birch = cluster.Birch(n_clusters=params['n_clusters'])",
+                "gmm = mixture.GaussianMixture(",
+                "    n_components=params['n_clusters'], covariance_type='full')",
+                "    clustering_algorithms = (",
+                "    ('MiniBatchKMeans', two_means),",
+                "    ('AffinityPropagation', affinity_propagation),",
+                "    ('MeanShift', ms),",
+                "    ('SpectralClustering', spectral),",
+                "    ('Ward', ward),",
+                "    ('AgglomerativeClustering', average_linkage),",
+                "    ('DBSCAN', dbscan),",
+                "    ('OPTICS', optics),",
+                "    ('Birch', birch),",
+                "    ('GaussianMixture', gmm)",
+                ")",
+                
+                "for name, algorithm in clustering_algorithms:",
+                "    algorithm.fit(X_all)",
+                "    if hasattr(algorithm, 'labels_'):",
+                "        label_pred = algorithm.labels_.astype(np.int)",
+                "    else:",
+                "        label_pred = algorithm.predict(X_all)",
+                "    #You can save the label and do the visualization in the following."
+                    
+            ]
+        },
+
+        {
+            "name" : "Outlier Detection",
+            "code" : [
+                "from sklearn.covariance import EllipticEnvelope",
+                "from sklearn.ensemble import IsolationForest",
+                "from sklearn.neighbors import LocalOutlierFactor",
+                "from sklearn import svm",
+                
+                "n_samples = len(X_all)",
+                "outliers_fraction = 0.15",
+                "n_outliers = int(outliers_fraction * n_samples)",
+                "n_inliers = n_samples - n_outliers",
+                
+                "# define outlier/anomaly detection methods to be compared",
+                "anomaly_algorithms = [",
+                "    ('Robust covariance', EllipticEnvelope(contamination=outliers_fraction)),",
+                "    ('One-Class SVM', svm.OneClassSVM(nu=outliers_fraction, kernel='rbf',",
+                "                                      gamma=0.1)),",
+                "    ('Isolation Forest', IsolationForest(contamination=outliers_fraction,",
+                "                                         random_state=42)),",
+                "    ('Local Outlier Factor', LocalOutlierFactor(",
+                "        n_neighbors=35, contamination=outliers_fraction))]",
+                
+                "for name, algorithm in anomaly_algorithms:",
+                "    algorithm.fit(X)",
+                "    if name == 'Local Outlier Factor':",
+                "        y_pred = algorithm.fit_predict(X)",
+                "    else:",
+                "        y_pred = algorithm.fit(X).predict(X)",
+                "    #You can save the label and do the visualization in the following."
+            ]
+        },
+
+        {
+            "name" : "Association Rule Analysis",
+            "code" : [
+                "from mlxtend.frequent_patterns import apriori"
+                "from mlxtend.frequent_patterns import association_rules", 
+                
+                "frequent_itemsets = apriori(X_dummy,min_support=0.05,use_colnames=True) # 'use_colnames=True' shows labels of features",
+                "# frequent_itemsets = apriori(X_dummy,min_support=0.05)",
+                "frequent_itemsets.sort_values(by='support',ascending=False,inplace=True) # Frequent itemsets can be sorted by support",
+                "print(frequent_itemsets[frequent_itemsets.itemsets.apply(lambda x: len(x)) >= 2])  # Select frequent itemsets with length >=2",
+                                 
+                "association_rule = association_rules(frequent_itemsets,metric='confidence',min_threshold=0.9)",
+                "association_rule.sort_values(by='leverage',ascending=False,inplace=True)    # Association rules can be sorted by leverage",
+                "print(association_rule)"
+            ]
+        },
+
+        {
+            "name" : "Semi-Supervised Learning",
+            "code" : [
+                "from sklearn.semi_supervised import LabelSpreading",
+
+                "rng = np.random.RandomState(0)",                
+                "#print(X_back)  # X_features in this task ",
+                "#print(y)       # y label we need to predict",                
+                "y_30 = np.copy(y)",
+                "y_30[rng.rand(len(y)) < 0.3] = -1",
+                "y_50 = np.copy(y)",
+                "y_50[rng.rand(len(y)) < 0.5] = -1",
+                "# we create an instance of SVM and fit out data.",
+                "ls30 = (LabelSpreading().fit(X_back, y_30), y_30)",
+                "ls50 = (LabelSpreading().fit(X_back, y_50), y_50)",
+                
+                "# You may also conduct models of label propagation and supervised learning under perfect information, if you want some contrast",
+                "ls100 = (LabelSpreading().fit(X_back, y), y)",
+                "rbf_svc = (svm.SVC(kernel='rbf', gamma=.5).fit(X_back, y), y)"
+            ]
+        },
+    ]
+}

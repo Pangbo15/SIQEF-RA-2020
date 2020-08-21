@@ -4,19 +4,28 @@
 
 ## 1. BACKGROUND OF MACHINE LEARNING
 
+### 1.0 Glossary of Common Terms and API Elements
+See https://scikit-learn.org/stable/glossary.html
+
 ### 1.1 Process
   
 ![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_process.bmp)  
 
-(From https://elearningindustry.com/machine-learning-process-and-scenarios)
+From https://elearningindustry.com/machine-learning-process-and-scenarios
 
 ### 1.2 Algorithms for model
 
 ![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/ML_algorithms.bmp) 
-(From https://github.com/Bladefidz/machine-learning)
+From https://github.com/Bladefidz/machine-learning
 
 ![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/algorithm_cheatsheet.jpeg) 
-(From http://thinkbigdata.in/best-known-machine-learning-algorithms-infographic/)
+From http://thinkbigdata.in/best-known-machine-learning-algorithms-infographic/
+
+To select the right algorithms for your model, see
+![image](https://github.com/Pangbo15/SIQEF-RA-2020/blob/master/SIQEF%20Assignment/scikit_learn/images/how_to_select_algorithm.jpeg) 
+
+To implement this algorithm in scikit-learn, see cheatsheet From 
+https://s3.amazonaws.com/assets.datacamp.com/blog_assets/Scikit_Learn_Cheat_Sheet_Python.pdf
 
 ### 1.3 Common Characteristics
 - loss function central: reveal preference
@@ -256,8 +265,10 @@ https://github.com/PHBS/MLF/blob/master/Project.md , and some other useful mater
 
 Some other paper from http://econ-neural.net/
 
-Official scikit-learn package description
+Official scikit-learn package description and guidance
 https://github.com/scikit-learn/scikit-learn
+https://scikit-learn.org/stable/tutorial/index.html
+https://scikit-learn.org/stable/presentations.html
 
 PyTorch: Deep Learning and Artificial Intelligence (special discount link for full VIP course as of Apr 2020)
 https://www.udemy.com/course/pytorch-deep-learning/?couponCode=PYTORCHVIP
