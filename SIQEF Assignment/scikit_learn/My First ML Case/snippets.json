@@ -75,7 +75,7 @@
                 "from sklearn.preprocessing import StandardScaler",
                 "#from sklearn.preprocessing import MinMaxScaler",
 
-                "sc_X = StandardScaler()"
+                "sc_X = StandardScaler()",
                 "X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=0)",
                 "X_test_std = sc_X.fit_transform(X_test)",
                 "X_train_std = sc_X.fit_transform(X_train)",
@@ -105,7 +105,7 @@
 
                 "cv = list(StratifiedKFold(n_splits=3).split(X_train, y_train))",
                 "names = ['Nearest Neighbors', 'Linear SVM', 'RBF SVM', 'Gaussian Process',",
-                "        'Decision Tree', 'Random Forest', 'Neural Net', 'AdaBoost',"
+                "        'Decision Tree', 'Random Forest', 'Neural Net', 'AdaBoost',",
                 "        'Naive Bayes', 'QDA']",
 
                 "classifiers = [",
@@ -150,7 +150,7 @@
                     "ax1 = plt.gca()",
                     "clf_disp = plot_roc_curve(clf, X_test, y_test, ax=ax1, alpha=0.8)"
             ]
-        }
+        },
 
         {
             "name" : "Dimension Reduction Manifold Algorith & Feature Agglomeration",
@@ -320,7 +320,7 @@
         {
             "name" : "Association Rule Analysis",
             "code" : [
-                "from mlxtend.frequent_patterns import apriori"
+                "from mlxtend.frequent_patterns import apriori",
                 "from mlxtend.frequent_patterns import association_rules", 
                 
                 "frequent_itemsets = apriori(X_dummy,min_support=0.05,use_colnames=True) # 'use_colnames=True' shows labels of features",
@@ -354,6 +354,6 @@
                 "ls100 = (LabelSpreading().fit(X_back, y), y)",
                 "rbf_svc = (svm.SVC(kernel='rbf', gamma=.5).fit(X_back, y), y)"
             ]
-        },
+        }
     ]
 }
