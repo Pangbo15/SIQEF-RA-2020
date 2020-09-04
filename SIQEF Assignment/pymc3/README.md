@@ -1,6 +1,6 @@
 # Python Bayesian Method: Pymc3 package
 
-### Author:Li Jiahui
+### Collected by:Li Jiahui, Pang Bo
 
 ## Pym3 Bayes introduction
 
@@ -14,6 +14,7 @@ We also recommend studying some of these notes on Bayesian methods
 
 https://jrnold.github.io/bayesian_notes/bayesian-inference.html
 
+And you can see the simple case from https://github.com/JackCaster/Intro_to_PyMC3.git in notebook folder.
 
 As you read through these pages, compare and contrast the results of Bayesian methods and the methods that you explored from scikit-learn. How do they differ? How are they similar? When might you want to use a Bayesian method rather than a machine learning method? We don't expect written answers, but thinking about these questions will prepare you to answer challenging and thoughtful questions that the students might ask (and that you yourself will confront in your own empirical research).
 
