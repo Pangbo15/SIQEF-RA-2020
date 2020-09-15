@@ -1,3 +1,6 @@
+# Scipy.optimize guidence
+## Author: Huang Kenghua
+
 The following lecture describe ten fascinating classic problems that can be solved with Python
 https://www.youtube.com/watch?v=sJ5HTi70wXo
 
@@ -13,3 +16,5 @@ to use pip to install bayesian-optimization
 pip install bayesian-optimization
 
 (I have a version of the program that I have copied and tweaked in case you want me to send it to you.)
+
+To be continued…
